@@ -31,11 +31,11 @@ function decrementB(b) {
   return b - 1;
 }
 function fullName(name, lastName) {
-  let completeName = name + " " + lastName 
-  return completeName
+  let completeName = name + " " + lastName;
+  return completeName;
 }
 function lightChange() {
-  trafficLight = "green"
+  trafficLight = "green";
 }
 /*********************************************************************************************************************
 
