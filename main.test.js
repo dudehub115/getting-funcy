@@ -1,12 +1,42 @@
 /**********************************
  * YOUR CODE GOES HERE THIS TIME! *
  **********************************/
+let a = 2;
+let b = 1;
+let c = 0;
+let name = "Giano";
+let lastName = "Reed";
+let trafficLight = "red"; 
 
-
-
-
-
-
+function addition(a, b) {
+  let c = a + b;
+  return c;
+}
+function subtraction(a, b) {
+  let c = a - b;
+  return c;
+}
+function multiplication(a, b) {
+  let c = a * b;
+  return c;
+}
+function division(a, b) {
+  let c = a / b;
+  return c;
+}
+function incrementA(a) {
+  return a + 1;
+}
+function decrementB(b) {
+  return b - 1;
+}
+function fullName(name, lastName) {
+  let completeName = name + " " + lastName 
+  return completeName
+}
+function lightChange() {
+  trafficLight = "green"
+}
 /*********************************************************************************************************************
 
  * CODE BELOW HERE IS FOR INTERNAL USE ONLY! IT ENSURES THAT THE TESTING *
